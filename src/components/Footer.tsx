@@ -23,15 +23,15 @@ const Footer = () => {
               <div className="flex items-center">
                 <Mail className="w-5 h-5 mr-2 text-accent" />
                 <a 
-                  href="mailto:izaanqaiser05@gmail.com" 
+                  href="mailto:djjcanconstruction@gmail.com" 
                   className="hover:text-accent transition-colors"
                 >
-                  izaanqaiser05@gmail.com
+                  djjcanconstruction@gmail.com
                 </a>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 mr-2 text-accent" />
-                <span>123 Construction Ave, City, State</span>
+                <span>Ontario, Canada</span>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ const Footer = () => {
             <div className="space-y-2">
               <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
               <p>Saturday: 9:00 AM - 4:00 PM</p>
-              <p>Sunday: Closed</p>
+              <p>Sunday: 9:00 AM - 4:00 PM</p>
             </div>
           </div>
         </div>
