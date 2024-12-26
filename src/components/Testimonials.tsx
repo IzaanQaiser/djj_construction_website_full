@@ -3,19 +3,19 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'John Smith',
-    role: 'Business Owner',
-    content: 'DJJ Construction exceeded our expectations. Their attention to detail and professional approach made our commercial project a success.',
+    name: 'Brantford Customer',
+    role: 'Home Owner',
+    content: 'DJJ Construction provided me with an amazing home renovation service that exceeded all of my expectations. The staff was very professional, the quality of the work was outstanding, and the end result was stunning. I would highly recommend DJJ Construction to anyone looking for a top-notch renovation.',
   },
   {
-    name: 'Sarah Johnson',
-    role: 'Homeowner',
-    content: 'We couldn\'t be happier with our new home. The team was professional, efficient, and delivered exactly what we envisioned.',
+    name: 'Burlington Customer',
+    role: 'Home Owner',
+    content: 'DJJ Renovations provided me with an amazing home renovation service that exceeded all of my expectations. The staff was very professional, the quality of the work was outstanding, and the end result was stunning. I would highly recommend DJJ Renovations to anyone looking for a top-notch renovation in Burlington, ON.',
   },
   {
-    name: 'Michael Chen',
-    role: 'Project Manager',
-    content: 'Outstanding service and communication throughout the entire project. DJJ Construction is our go-to partner for all construction needs.',
+    name: 'Milton Customer',
+    role: 'Home Owner',
+    content: 'DJJ Renovations transformed my Milton home with exceptional renovation services that far exceeded my expectations. The team was professional, the craftsmanship was outstanding, and the final result was absolutely stunning. I highly recommend DJJ Renovations to anyone seeking high-quality home renovations.',
   },
 ];
 
@@ -26,7 +26,7 @@ const Testimonials = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary mb-4">What Our Clients Say</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Don't just take our word for it - hear from our satisfied clients
+            Don't just take our word for it - hear from our satisfied clients.
           </p>
         </div>
         

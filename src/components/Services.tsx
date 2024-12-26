@@ -2,14 +2,14 @@ import React from 'react';
 import { Building2, Home, Factory, Warehouse, Ruler, PaintBucket, Wrench, Hammer, HardHat } from 'lucide-react';
 
 const services = [
-  { icon: Building2, title: 'Commercial Construction', description: 'Full-service commercial building solutions' },
+  { icon: Building2, title: 'Kitchen Remodeling', description: 'Full-service kitchen remodeling solutions' },
   { icon: Home, title: 'Residential Construction', description: 'Custom home building and renovations' },
-  { icon: Factory, title: 'Industrial Construction', description: 'Specialized industrial facility construction' },
-  { icon: Warehouse, title: 'Renovation', description: 'Complete property renovation services' },
+  { icon: Factory, title: 'Property Management', description: 'Specialized and personalized property management' },
+  { icon: Warehouse, title: 'Home Renovation', description: 'Complete property renovation services' },
   { icon: Ruler, title: 'Project Planning', description: 'Comprehensive construction planning' },
-  { icon: PaintBucket, title: 'Interior Finishing', description: 'Expert interior finishing services' },
+  { icon: PaintBucket, title: 'Interior Remodeling', description: 'Expert interior remodeling services' },
   { icon: Wrench, title: 'Maintenance', description: 'Ongoing maintenance and repairs' },
-  { icon: Hammer, title: 'Custom Builds', description: 'Tailored construction solutions' },
+  { icon: Hammer, title: 'Custom Projects', description: 'Tailored construction solutions' },
   { icon: HardHat, title: 'Project Management', description: 'Professional project oversight' },
 ];
 
@@ -20,7 +20,7 @@ const Services = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary mb-4">Our Services</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Comprehensive construction solutions tailored to meet your specific needs
+            Comprehensive construction solutions tailored to meet your specific needs.
           </p>
         </div>
         

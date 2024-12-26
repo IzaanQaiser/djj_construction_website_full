@@ -13,12 +13,12 @@ const Footer = () => {
             </p>
           </div>
           
-          <div>
+          <div className='pl-0 lg:pl-20 md:pl-0 '>
             <h3 className="text-xl font-bold mb-4">Contact Info</h3>
             <div className="space-y-2">
               <div className="flex items-center">
                 <Phone className="w-5 h-5 mr-2 text-accent" />
-                <span>(555) 123-4567</span>
+                <span>(647) 632-3557</span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 mr-2 text-accent" />
@@ -41,7 +41,7 @@ const Footer = () => {
             <div className="space-y-2">
               <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
               <p>Saturday: 9:00 AM - 4:00 PM</p>
-              <p>Sunday: 9:00 AM - 4:00 PM</p>
+              <p>Sunday: CLOSED</p>
             </div>
           </div>
         </div>
