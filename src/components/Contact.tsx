@@ -9,11 +9,11 @@ const Contact = () => {
     e.preventDefault();
     setStatus('sending');
 
-    emailjs.init("cxOml1k4uTdxQnRoj"); // Replace with your EmailJS public key
+    emailjs.init("cxOml1k4uTdxQnRoj"); // EmailJS public key
 
     emailjs.sendForm(
-      "service_63zfitp", // Replace with your EmailJS service ID
-      "template_i70ha1c", // Replace with your EmailJS template ID
+      "service_63zfitp", // EmailJS service ID
+      "template_i70ha1c", // EmailJS template ID
       formRef.current!
     )
       .then(() => {
